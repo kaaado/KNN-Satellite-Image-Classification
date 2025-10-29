@@ -7,7 +7,7 @@ from streamlit_webrtc import webrtc_streamer, WebRtcMode, RTCConfiguration
 import av
 import os
 import pandas as pd
-import base64 # Only needed if using local background image
+import base64 
 
 st.set_page_config(
     page_title="KNN Satellite Classifier",
